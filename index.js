@@ -18,26 +18,56 @@ Otherwise output:'Ship set of knives'
 
 // Variable declaration
 let associateBanker = [56123, 5, 1]; //employeeId, checking, years
-let empId = associateBanker[0]       //employee Id number
-let empChecking = associateBanker[1] //number of new checking 
+let empId = associateBanker[0];       //employee Id number
+let empChecking = associateBanker[1]; //number of new checking 
 let empYears = associateBanker[2];   //years employed
 
 // Continue same pattern/naming convention for each banker
 // leaving only one variable declaration section uncommented each 'Run'
 
 /* 
-let seniorBanker = [77227, 1, 2]
-let empId = seniorBanker[0]       
-let empChecking = seniorBanker[1]
+let seniorBanker = [77227, 1, 2];
+let empId = seniorBanker[0];       
+let empChecking = seniorBanker[1];
 let empYears = seniorBanker[2];   
 */
 
+/*
+let juniorBanker = [66225, 5, 3];
+let empID = juniorBanker[0];
+let empChecking = juniorBanker[1];
+let empYears = juniorBanker[2];
+*/
+
+/*
+let tempBanker = [56677, 5, 0];
+let empID = tempBanker[0];
+let empChecking = tempBanker[1];
+let empYears = tempBanker[2];
+*/
+
+/*
+let midBanker = [22151, 2, 6];
+let empID = midBanker[0];
+let empChecking = midBanker[1];
+let empYears = midBanker[2];
+*/
 
 //<--Your code goes here-->
 
+if (empYears == 1) {
+    if (empChecking == 1) {
+        console.log('Ship $50.00 Gift Card');
+    }
+    else {
+        console.log('Incentives not met')
+    }
+}
+else if (empYears == 2) {
+    if (empChecking >= 3)
+}
 
 // Output when activity is complete
 console.log(`${empId}: Processed`)
 
-    
-   
+
